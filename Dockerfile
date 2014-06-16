@@ -6,6 +6,8 @@ ENV HOME /root
 
 CMD ["/root/start.sh"]
 
+#ADD my.cnf /usr/local/mysql/etc/my.cnf
+
 VOLUME ['/usr/local/mysql/data']
 
 EXPOSE 3306
